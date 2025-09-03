@@ -19,7 +19,7 @@ int main() {
     cin >> pos;
 
     //shifting elements to left from the position
-    for (int i = pos; i < n - 1; i++) {
+    for (int i = pos; i < n - 1; i++) { // "<n-1" is used, becoz the last element will remail at last only so no need to shift it
         arr[i] = arr[i + 1]; //overwriting the element at pos with the next element
     }
     n--; //decreasing size of array after deletion
