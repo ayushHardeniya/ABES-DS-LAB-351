@@ -13,7 +13,7 @@ int main (){
     }
     for (int i=0;i<n;i++){
         count=0;
-        for(int j=0;j<n;j++){  //seconf loop for comparing the repetitive elements by holding at one which is stick with i
+        for(int j=0;j<n;j++){  //second loop for comparing the repetitive elements by holding at one which is stick with i
             if(arr[i]==arr[j]){
                 count++;
             }
